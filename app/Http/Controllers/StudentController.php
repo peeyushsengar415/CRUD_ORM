@@ -85,7 +85,6 @@ class StudentController extends Controller
         $student->city=$req->city;
         $student->marks=$req->marks;
         $student->save();
-
         return redirect('/');
 
     }
